@@ -15,7 +15,7 @@
 .gradiente {
     width: 100%;
     height: 4px;
-    background-image: url(./Midia/Div\ linha\ azul.png);
+    background-image: url(Midia/Div\ linha\ azul.png);
     opacity: 0.9;
     background-size: cover;
     background-position: center;
@@ -37,7 +37,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 13px 30px;
-    background-image: url(./Midia/nav.png);
+    background-image: url(Midia/nav.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ main {
     padding: 50px 190px;
     height: 500px;
     text-align: center;
-    background-image: url(./Midia/wallpaper\ kalea.png);
+    background-image: url(Midia/wallpaper\ kalea.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ section {
     width: 100%;
     height: 430px;
     padding: 30px;
-    background-image: url(./Midia/sem\ mapa.png);
+    background-image: url(Midia/sem\ mapa.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -415,7 +415,7 @@ section {
     width: 100%;
     height: 630px;
     padding: 30px 50px;
-    background-image: url(./Midia/Com\ mapa.jpg);
+    background-image: url(Midia/Com\ mapa.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
@@ -663,7 +663,7 @@ section {
     height: 5px;
     padding: 8px 6px;
     border-radius: 10px;
-    background-image: url(./Midia/Div\ linha.png);
+    background-image: url(Midia/Div\ linha.png);
 }
 
 .dificuldade-t img{
@@ -761,7 +761,7 @@ section {
     padding: 20px 50px;
     display: flex;
     gap: 30px;
-    background-image: url('./Midia/recarga.jpg');
+    background-image: url('Midia/recarga.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
@@ -789,7 +789,7 @@ section {
     padding: 20px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url('/Midia/recarga.jpg');
+    background-image: url('Midia/recarga.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -874,7 +874,7 @@ section {
 .footer-div1 {
     width: 100%;
     height: 380px;
-    background-image: url('./Midia/MLBB-Twilight-Pass-Guide\ \(1\).jpg');
+    background-image: url('Midia/MLBB-Twilight-Pass-Guide\ \(1\).jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
@@ -901,7 +901,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
-    background-image: url('/Midia/Div\ linha.png');
+    background-image: url('Midia/Div\ linha.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
