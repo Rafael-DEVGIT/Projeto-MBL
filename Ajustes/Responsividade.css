@@ -1,0 +1,57 @@
+    @media (min-width: 768px) {
+      .virar-pagina {
+        display: none;
+      }
+    }
+    
+    @media (max-width: 480px) {
+
+        .todo-conteudo{
+            display: none;
+        }
+        
+        .virar-pagina {
+            width: 100%;
+            height: 100vh;
+            background-image: url(/Midia/sem\ mapa.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+
+        .virar-pagina h3{
+            width: 220px;
+            text-align: center;
+            color: #fff;
+            font-family: 'poppins';
+            font-size: 15px;
+            margin-top: -30px;
+            margin-bottom: 200px;
+            margin-left: 20%;
+        }
+
+        .virar-pagina h4{
+            width: 260px;
+            text-align: center;
+            color: #ffffff93;
+            font-family: 'poppins';
+            font-size: 14px;
+            margin-left: 16%;   
+            
+        }
+
+        .virar-pagina img:nth-child(1) {
+            width: 200px;
+            height: 200px;
+            transform: rotate(90deg); /* Começa em pé */
+            transform-origin: center center;
+            margin-top: 120px;
+        }
+    }

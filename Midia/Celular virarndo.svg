@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="305">
+  <animate attributeType="XML" attributeName="opacity" to="1" id="beginPoint" begin="0s;endPoint.end" dur="3549ms" />
+  <animate attributeType="XML" attributeName="opacity" to="1" id="endPoint" begin="beginPoint.end" dur="1ms" />
+  <defs>
+    <g id="phone">
+      <path fill="#181526" fill-rule="evenodd" d="M89.2 15.351v149.3A13.751 13.751 0 0 1 75.449 178.4h-60.9A13.751 13.751 0 0 1 .8 164.649V15.351A13.751 13.751 0 0 1 14.551 1.6h60.9A13.751 13.751 0 0 1 89.2 15.351Z"/>
+      <path fill="#2a263d" fill-rule="evenodd" d="M82 20v137H8V20h74Z" />
+      <path fill="#fff" fill-rule="evenodd" d="M90 14v152a14 14 0 0 1-14 14H14a14 14 0 0 1-14-14V14A14 14 0 0 1 14 0h62a14 14 0 0 1 14 14Zm-3 1v150a12 12 0 0 1-12 12H15a12 12 0 0 1-12-12V15A12 12 0 0 1 15 3h60a12 12 0 0 1 12 12Zm-32-4.5a1.5 1.5 0 0 1-1.5 1.5h-17a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 1.5 1.5Z" />
+    </g>
+  </defs>
+  <defs>
+    <g id="arc">
+      <path fill="#fff" fill-rule="evenodd" d="M343.1,341.983a1.057,1.057,0,0,1-.8-0.377l-0.051.037a74.754,74.754,0,0,0-98.335-21.056,1.054,1.054,0,0,1-.813.4,1.074,1.074,0,0,1-1.074-1.074,1.061,1.061,0,0,1,.335-0.772l0,0,0.062-.035a1.043,1.043,0,0,1,.337-0.192A77.052,77.052,0,0,1,343.641,340a1.057,1.057,0,0,1,.536.908A1.074,1.074,0,0,1,343.1,341.983ZM237.272,324.949a75.891,75.891,0,0,0-19.117,20.43l-1.773-1.126a77.6,77.6,0,0,1,20.032-21.229l0.038,0.054a1.054,1.054,0,0,1,.652-0.242,1.074,1.074,0,0,1,1.073,1.073A1.061,1.061,0,0,1,237.272,324.949Z" transform="translate(-216.375 -308.469)"/>
+    </g>
+  </defs>
+  <clipPath id="upClip">
+    <rect x="80" y="115" width="130" height="30" />
+  </clipPath>
+  <clipPath id="downClip">
+    <rect x="80" y="245" width="130" height="30" />
+  </clipPath>
+  <use x="140" y="60" xlink:href="#phone" fill-opacity="0.1">
+    <animate attributeName="fill-opacity" begin="beginPoint.begin + 1075ms" values="0.1; 0.2; 0.2; 0.1" keyTimes="0; 0.2738; 0.9523; 1" dur="2100ms" fill="freeze" repeatCount="1" />
+  </use>
+  <g clip-path="url(#upClip)">
+    <use x="80" y="115" xlink:href="#arc" transform="rotate(-110,143,188)">
+      <animateTransform attributeName="transform" attributeType="XML" fill="freeze" type="rotate" begin="beginPoint.begin + 100ms" from="-110 145 190" to="115 145 190" dur="600ms" />
+    </use>
+  </g>
+  <g clip-path="url(#downClip)">
+    <use x="80" y="115" xlink:href="#arc" transform="rotate(80,143,188)">
+      <animateTransform attributeName="transform" attributeType="XML" fill="freeze" type="rotate" begin="beginPoint.begin + 275ms" from="80 145 190" to="285 145 190" dur="425ms" />
+    </use>
+  </g>
+  <use x="140" y="60" transform="rotate(-90,185,195)" xlink:href="#phone">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" begin="beginPoint.begin + 1075ms" values="-90 185 195; -100 185 195; 10 185 195; 0 185 195; 0 185 195" keyTimes="0; 0.0633; 0.2152; 0.2785; 1" dur="1975ms" />
+    <animate attributeName="fill-opacity" begin="beginPoint.begin + 2900ms" values="1; 0; 0.2; 1" keyTimes="0; 0.375; 0.4375; 1" dur="400ms" fill="freeze" />
+  </use>
+</svg>

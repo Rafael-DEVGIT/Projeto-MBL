@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legends : Bang Bang</title>
+    <link rel="stylesheet" href="./Ajustes/Responsividade.css">
+    <link rel="stylesheet" href="./Ajustes/Style.css">
+    <link rel="icon" href="./Midia/icon M.png">
+</head>
+
+<body>
+    
+    <div class="virar-pagina">
+        <img src="./Midia/Celular virarndo.svg" alt="">
+        <h3>Vire seu smartphone para uma melhor experiencia</h3>
+        <h4>por favor ative a rotação da tela. Tente usar um navegador diferente se a página ainda não for exibida corretamente.</h4>
+    </div>
+
+    <div class="todo-conteudo">
+            <!--- TOPO-->
+   <header class="header-responsivo">
+        <div id="inicio" class="navbar">
+            <div class="logo"><img src="./Midia/Logo MBL.png" alt=""></div>
+            <div class="btns-nav">
+                <a class="btn-login" href="https://www.mobilelegends.com/">ENTRAR</a>
+                <button class="hamburger" onclick="toggleMenu()"><img src="./Midia/hamburguer.png" alt=""></button>
+            </div>
+        </div>
+
+        <nav class="overlay-menu" id="menu">
+            <button class="close-btn" onclick="toggleMenu()"><img src="/Midia/Closer.png" alt=""></button>
+            <ul>
+                <li><a href="">INICIO</a></li>
+                <li><a href="">DESTAQUE</a></li>
+                <li><a href="https://www.mobilelegends.com/hero">CAMPEÕES</a></li>
+                <li><a href="https://www.mobilelegends.com/payment?regionid=BR">RECARGA</a></li>
+                <li><a href="https://www.mobilelegends.com/redeem">RESGATAR CODIGO</a></li>
+                <li><a href="https://www.mobilelegends.com/doujin">FAN ARTS</a></li> 
+                
+                <div class="nav-contatos">
+                    <a href="https://www.facebook.com/MobileLegendsTC/?brand_redir=1212826968780074"><img src="/Midia/Redes Sociais/Facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/mobilelegendsgame/"><img src="/Midia/Redes Sociais/Instagram.png" alt=""></a>
+                    <a href="https://x.com/MobileLegendsOL"><img src="./Midia/Redes Sociais/X.png" alt=""></a>
+                    <a href="https://www.tiktok.com/@mlbbttofficial?source=h5_m"><img src="./Midia/Redes Sociais/Tiktok.png" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCqmld-BIYME2i_ooRTo1EOg"><img src="./Midia/Redes Sociais/Youtube.png" alt=""></a> 
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!--- Linha -->
+    <div class="gradiente"></div>
+
+    <!--- CONTEUDO -->
+        <main class="video-background" >
+
+            <div class="conteudo-total">
+
+                <div class="conteudo-main">
+                    <video loop muted autoplay>
+                        <source src="/Midia/Videos/video wallpaper.mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <img class="logo" src="/Midia/Logo MBL.png" alt="">
+                        <h1>JOGUE AGORA</h1>
+                        <div class="bnts">
+                            <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&referrer=adjust_reftag%3DcERPnor05fUxt%26utm_source%3DReLandingButton"><img src="./Midia/botão playstore.png" alt=""></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.mobile.legends&referrer=adjust_reftag%3DcVClbDS5JCbXX%26utm_source%3DReLandingButton"><img src="./Midia/Botão appstore.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+    <!--- Linha -->
+        <div class="gradiente"></div>
+
+    <!--- CONTEUDO 2  -->
+        <section>
+            <!---SLIDER-->
+            <div>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <a href="https://m.mobilelegends.com/video/detail?channelid=2678953&videoid=2868150" target="_blank">
+                                <img src="./Midia/Kallea IMG.jpg" alt="Imagem 1">
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="https://m.mobilelegends.com/video/detail?channelid=2678953&videoid=2918926" target="_blank">
+                                <img src="./Midia/naruto collab 2.jpg" alt="Imagem 2">
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="https://m.mobilelegends.com/news/articleldetail?newsid=2917618" target="_blank">
+                                <img src="./Midia/Neo Beasts img.png" alt="Imagem 3">
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="https://www.codashop.com/pt-br/mobile-legends" target="_blank">
+                                <img src="./Midia/recarga em dobro.jpg" alt="Imagem 4">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button class="control-btn" onclick="moveToSlide(0)"></button>
+
+                    <button class="control-btn" onclick="moveToSlide(1)"></button>
+
+                    <button class="control-btn" onclick="moveToSlide(2)"></button>
+
+                    <button class="control-btn" onclick="moveToSlide(3)"></button>
+                </div>
+
+
+            </div>
+
+            <div class="imgs-buttons">
+                <a href="https://m.mobilelegends.com/rank">
+                    <h1>Rank de Herois</h1>
+                    <h4>Confira quais os herios mais jogados</h4>
+                </a>
+
+                <a href="https://www.mobilelegends.com/payment?regionid=BR">
+                    <h1>Recarga Online</h1>
+                    <h4>Recarregue aqui os seus diamantes.</h4>
+                </a>
+
+                <a href="https://www.mobilelegends.com/redeem">
+                    <h1>Resgatar Codigo</h1>
+                    <h4>Resgate aqui suas recompensar via codigo.</h4>
+                </a>
+
+                <a href="https://m.mobilelegends.com/hero/detail?channelid=2863075&heroid=128">
+                    <h1>Fan Art</h1>
+                    <h4>Confira artes criadas por nossos jogadores.</h4>
+                </a>
+                
+            </div>
+        </section>
+
+    <!--- Linha -->
+        <div class="gradiente"></div>
+
+    <!--- DIV PERSONAGEM -->
+        <section class="section-personagem">
+            <div class="texto-hero">
+            <img src="Midia/Capacete.svg" alt=""> <h1> CAMPEÃO EM DESTAQUE </h1>
+            </div>
+            <div class="perso-slide">
+                <div class="perso-img"> 
+                    <img class="imagem-1" src="Midia/Fundo personagem.png" alt="">
+                    <img class="imagem-2" src="Midia/Suporte.png" alt="">
+                </div>
+
+                <div class="perso-texto">
+                    <div>
+                        <h2>Kalea - Onda Avassaladora </h2>
+                        <div class="rotas">
+                            <h4>Suporte</h4>
+                            <h4>Lutadora</h4>
+                            <h4>Controle</h4>
+                            <h4>Regeneração</h4>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <div class="imagens-container">
+                            <div class="imagem" onmouseover="mostrarTexto(1)" onmouseout="esconderTexto(1)">
+                                <img src="Midia/Skills e btns/Kalea Passiva.png" alt="Imagem 1">
+                                <div id="texto-1" class="texto texto1">
+                                    <h1>Passiva - Surto de Vida </h1>
+                                    <h3>
+                                        Após conjurar uma habilidade, Kalea cria uma Zona de Água no chão. Quando Kalea conjura uma habilidade dentro dessa zona, ela a absorve para aprimorar seus próximos três Ataques Básicos com efeitos diferentes:
+                                        Primeiro Ataque Básico: Kalea avança em direção ao alvo, causando (+100% do Ataque Físico Total) de Dano Físico.
+                                        Segundo Ataque Básico: Kalea desfere uma série de ataques, causando 300 (+100% do Ataque Físico Total) de Dano Físico e recuperando 120 (+10% do PV Total) (+60% do Poder Mágico Total) de PV para si mesma e para o aliado próximo com menor PV.
+                                        Terceiro Ataque Básico: Kalea usa sua cauda para atingir a área ao redor do alvo, causando 100 (+100% do Ataque Físico Total) de Dano Físico e criando uma nova Zona de Água. Ataques Básicos Aprimorados não são afetados pela Velocidade de Ataque.
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="imagem" onmouseover="mostrarTexto(2)" onmouseout="esconderTexto(2)">
+                                <img src="Midia/Skills e btns/Kalea Skill 1.png" alt="Imagem 2">
+                                <div id="texto-2" class="texto2">
+                                    <h1>
+                                        1 Skill - Quebra Ondas
+                                    </h1>
+                                    <h3>
+                                        Kalea bate o punho no chão, criando uma onda que causa 250 (+5% HP Total) de Dano Físico aos inimigos próximos e os retarda em 40% por 1,5 segundo
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="imagem" onmouseover="mostrarTexto(3)" onmouseout="esconderTexto(3)">
+                                <img  src="Midia/Skills e btns/Kalea Skill 2.png" alt="Imagem 3">
+                                <div id="texto-3" class="texto3">
+                                    <h1>
+                                        2 Skill - Ataque das Marés
+                                    </h1>
+                                    <h3>
+                                        Kalea avança e atinge o primeiro herói inimigo que encontra, lançando-o ao ar por 0,6 s, causando 150 (+60% de Ataque Físico Total) de Dano Físico.
+                                        Se ela colidir com um obstáculo ou tocar a borda de uma Zona de Água durante sua investida, Kalea saltará no ar. Lance a habilidade novamente para atingir o local alvo, causando 150 (+60% de Ataque Físico Total) de Dano Físico e lançando os inimigos ao ar por 0,6 s.
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="imagem" onmouseover="mostrarTexto(4)" onmouseout="esconderTexto(4)">
+                                <img src="Midia/Skills e btns/Kalea Skill 3.png" alt="Imagem 4">
+                                <div id="texto-4" class="texto4">
+                                    <h1> Ultimate - Impacto do Tsunami </h1>
+                                    <h3>
+                                        Kalea grabs an enemy hero with her tail and slams them down in the Joystick's direction, dealing 300 (+80% Total Physical Attack) Physical Damage to the target and nearby enemies.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dificuldade">
+                        <div>
+                            <h1>Durabilidade</h1>
+                            <div class="dificuldade-t">
+                                <img class="skill1" src="Midia/Background azul claro.png" alt="">
+                            </div>
+                        </div>
+
+                        <div>
+                            <h1>Ofensividade</h1>
+                            <div class="dificuldade-t">
+                                <img class="skill2" src="Midia/Background azul claro.png" alt="">
+                            </div>
+                        </div>
+
+                        <div>
+                            <h1>Controle</h1>
+                            <div class="dificuldade-t">
+                                <img class="skill3" src="Midia/Background azul claro.png" alt="">
+                            </div>
+                        </div>
+
+                        <div>
+                            <h1>Dificuldade</h1>
+                            <div class="dificuldade-t">
+                                <img class="skill4" src="Midia/Background azul claro.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="winrate">
+                        <div>
+                            <h1>52.85%</h1>
+                            <h3>Taxa de Vitoria</h3>
+                        </div>
+
+                        <div>
+                            <h1>0.97%</h1>
+                            <h3>Taxa de Seleção</h3>
+                        </div>
+
+                        <div>
+                            <h1>70.05%</h1>
+                            <h3>Taxa de Banimento</h3>
+                        </div>
+                    </div>
+
+                    <div class="saiba-mais">
+                        <a href="https://m.mobilelegends.com/hero/detail?channelid=2863075&heroid=128">CONHEÇA O CAMPEÃO</a>
+                    </div>
+                </div>  
+            </div>
+        </section>
+
+    <!--- Linha -->
+        <div class="gradiente"></div>
+
+
+        <div class="codashop">
+            <a href="https://www.codashop.com/pt-br/mobile-legends"><img src="./Midia/MLBB Product Page Banner -  BR.png" alt=""></a>
+            <img src="./Midia/MCM-442_Brazil.png" alt="">
+        </div>
+
+        <!--- Linha -->
+        <div class="gradiente"></div>
+
+        <div class="contatos">
+
+            <div>
+                <div class="contatos-texto">
+                    <h1>SIGA NOSSAS</h1>
+                    <H1>REDES SOCIAIS</H1>
+                </div>
+
+                <div class="contatos-imgs">
+                    <a href="https://www.facebook.com/MobileLegendsTC/?brand_redir=1212826968780074"><img src="/Midia/Redes Sociais/Facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/mobilelegendsgame/"><img src="/Midia/Redes Sociais/Instagram.png" alt=""></a>
+                    <a href="https://x.com/MobileLegendsOL"><img src="./Midia/Redes Sociais/X.png" alt=""></a>
+                    <a href="https://www.tiktok.com/@mlbbttofficial?source=h5_m"><img src="./Midia/Redes Sociais/Tiktok.png" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCqmld-BIYME2i_ooRTo1EOg"><img src="./Midia/Redes Sociais/Youtube.png" alt=""></a> 
+                </div>
+                <div class="www">
+                    <h3>Site Oficial</h3>
+                    <a href="https://m.mobilelegends.com">www.mobilelegends.com</a>
+                </div>
+    
+            </div>
+            <div class="personagem-contatos">
+                <div class="perso-img"> 
+                    <img class="imagem-1" src="Midia/Fundo personagem.png" alt="">
+                    <img class="imagem-2" src="Midia/eudora.png" alt="">
+                </div>
+            </div>
+        </div>
+            <div class="gradiente"></div>
+    <!--- FINAL -->
+        <div class="footer-div1">
+            <img src="/Midia/Redes Sociais/MBLOGO.png" alt="">
+        </div>
+                <div class="gradiente"></div>
+        <footer>
+            <div class="footer-texto">
+                <a href="https://m.mobilelegends.com/news/articleldetail?newsid=2762337">Política de privacidade </a>
+                <Span>I</Span>
+                <a href="https://m.mobilelegends.com/news/articleldetail?newsid=2762338">Termos de serviço</a>
+            </div>
+            <div class="footer-direitos">
+                <p>© Moonton. All Rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="/Ajustes/Script.Js"></script>
+</body>
+</html>
