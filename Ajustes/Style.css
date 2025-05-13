@@ -901,7 +901,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
-    background-image: url('/Midia/Div\ linha.png');
+    background-image: url('../Midia/Div\ linha.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
